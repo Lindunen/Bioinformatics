@@ -1,0 +1,25 @@
+sudo apt install git
+git --version
+git config --global user.name katlind
+git config --global user.email lindunen.ei@phystech.edu
+git config --list
+git config --global user.name Lindunen
+git config --list
+git checkout -b cleaning
+git branch
+git add diskusage.file
+git commit -m "Add disk usage info for files more then 1 kB and fastq files"
+git push -u origin cleaning
+git checkout master
+git branch
+git add task.txt
+git commit -m "Add file for task 8"
+git log --oneline -1
+git add forgotten.txt
+git commit --amend --no-edit
+git log --oneline -2
+git add amend.txt
+git commit -m "Add answers about git amend in task 8"
+git push origin master
+history | grep git
+history | grep git | cut -c 8- > report_commands.txt

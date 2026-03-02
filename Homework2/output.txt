@@ -1,0 +1,8 @@
+Test with no arguments:
+$ ./greeter.sh
+Error: Not enough arguments provided
+Usage: ./greeter.sh <First Name> <Last Name> <Group>
+
+Test with correct number arguments:
+$ ./greeter.sh Ivan Ivanov Bio305
+Welcome, Ivan Ivanov from group Bio305!

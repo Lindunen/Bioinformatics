@@ -1,0 +1,11 @@
+ClinicalTrial2026/
+MyProject/
+TestProject/
+*.tmp
+*.log
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+!project_init.sh
+!.gitignore
